@@ -18,7 +18,10 @@ class ClienteWeb(object):
                 return html
 
         def run(self):
+            # descarregar-me html
             html = self.descarregar_html()
+            # buscar activitats
+            # implementar resultat
             print(html)
             pass
 
